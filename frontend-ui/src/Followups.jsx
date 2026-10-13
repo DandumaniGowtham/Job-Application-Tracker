@@ -214,7 +214,6 @@ function Followups() {
           type="button"
           className="followup-primary-button"
           onClick={openCreateForm}
-          disabled={applications.length === 0 && !loading}
         >
           + Add Follow-up
         </button>

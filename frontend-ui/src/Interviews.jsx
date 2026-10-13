@@ -193,7 +193,6 @@ function Interviews() {
           type="button"
           className="interview-primary-button"
           onClick={openCreateForm}
-          disabled={applications.length === 0 && !loading}
         >
           + Schedule Interview
         </button>

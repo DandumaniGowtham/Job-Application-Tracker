@@ -195,7 +195,6 @@ function Notes() {
           type="button"
           className="notes-primary-button"
           onClick={openCreateForm}
-          disabled={applications.length === 0 && !loading}
         >
           + Add Note
         </button>
