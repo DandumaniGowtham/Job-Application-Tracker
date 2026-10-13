@@ -341,7 +341,6 @@ function Applications() {
                   onChange={updateField}
                   required
                   maxLength={200}
-                  placeholder="e.g. TCS"
                 />
               </label>
 
@@ -353,7 +352,6 @@ function Applications() {
                   onChange={updateField}
                   required
                   maxLength={200}
-                  placeholder="e.g. Python Developer"
                 />
               </label>
 
@@ -364,7 +362,7 @@ function Applications() {
                   value={form.location}
                   onChange={updateField}
                   required
-                  placeholder="e.g. Bengaluru"
+                  
                 />
               </label>
 
@@ -391,7 +389,6 @@ function Applications() {
                   value={form.source}
                   onChange={updateField}
                   required
-                  placeholder="e.g. LinkedIn"
                 />
               </label>
 
@@ -416,7 +413,6 @@ function Applications() {
                   onChange={updateField}
                   min="0"
                   step="0.01"
-                  placeholder="e.g. 300000"
                 />
               </label>
 
@@ -429,7 +425,6 @@ function Applications() {
                   onChange={updateField}
                   min="0"
                   step="0.01"
-                  placeholder="e.g. 500000"
                 />
               </label>
 
@@ -440,7 +435,6 @@ function Applications() {
                   name="job_url"
                   value={form.job_url}
                   onChange={updateField}
-                  placeholder="https://company.com/careers/job"
                 />
               </label>
 
