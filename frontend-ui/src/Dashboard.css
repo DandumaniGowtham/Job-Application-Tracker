@@ -351,6 +351,7 @@
 }
 
 
+
 @media (max-width: 760px) {
   .dashboard-page {
     grid-template-columns: 1fr;
@@ -359,42 +360,56 @@
   .dashboard-sidebar {
     position: static;
     height: auto;
-    padding: 15px;
+    padding: 12px 15px;
     border-right: 0;
     border-bottom: 1px solid #e3eaf2;
   }
 
   .dashboard-brand {
-    padding-bottom: 15px;
+    padding-bottom: 12px;
+    font-size: 21px;
   }
 
   .sidebar-label {
     display: block;
-    margin-top: 8px;
+    margin: 5px 0 10px;
   }
 
   .sidebar-bottom {
     display: block;
-    margin-top: 12px;
-    padding-top: 10px;
+    margin-top: 8px;
+    padding: 8px 0 0;
+  }
+
+  .sidebar-bottom p {
+    display: none;
+  }
+
+  .sidebar-bottom button {
+    margin-top: 5px;
+    padding: 10px;
   }
 
   .dashboard-nav {
     display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-    overflow: visible;
+    flex-wrap: nowrap;
+    gap: 8px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 8px;
+    -webkit-overflow-scrolling: touch;
   }
 
-  .nav-item {
-    flex: 1 1 auto;
+  .dashboard-nav .nav-item {
+    flex: 0 0 auto;
     width: auto;
     justify-content: center;
-    padding: 10px;
-    font-size: 12px;
+    white-space: nowrap;
+    padding: 10px 14px;
+    font-size: 13px;
   }
 
-  .nav-item span {
+  .dashboard-nav .nav-item span {
     display: inline;
   }
 
@@ -427,6 +442,7 @@
     padding: 18px;
   }
 }
+
 
 @media (max-width: 400px) {
   .dashboard-user > div:last-child {
