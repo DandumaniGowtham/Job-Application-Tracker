@@ -350,6 +350,7 @@
   }
 }
 
+
 @media (max-width: 760px) {
   .dashboard-page {
     grid-template-columns: 1fr;
@@ -367,25 +368,34 @@
     padding-bottom: 15px;
   }
 
-  .sidebar-label,
+  .sidebar-label {
+    display: block;
+    margin-top: 8px;
+  }
+
   .sidebar-bottom {
-    display: none;
+    display: block;
+    margin-top: 12px;
+    padding-top: 10px;
   }
 
   .dashboard-nav {
     display: flex;
+    flex-wrap: wrap;
     gap: 6px;
-    overflow-x: auto;
+    overflow: visible;
   }
 
   .nav-item {
-    flex-shrink: 0;
+    flex: 1 1 auto;
+    width: auto;
+    justify-content: center;
     padding: 10px;
     font-size: 12px;
   }
 
   .nav-item span {
-    display: none;
+    display: inline;
   }
 
   .dashboard-main {
@@ -405,7 +415,8 @@
   }
 
   .dashboard-stats {
-    gap: 12px;
+    grid-template-columns: 1fr;
+    gap: 16px;
   }
 
   .stat-card {
