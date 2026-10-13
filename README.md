@@ -2,6 +2,12 @@
 
 A full-stack application for organizing a job search. Users can register and log in, manage applications, track application statuses, schedule interviews, create follow-up reminders, write notes, and review job-search statistics.
 
+## 🌐 Live
+
+**Live Application:** https://job-application-tracker-r8hz.onrender.com
+
+**Backend API Documentation:** https://job-application-tracker-api-7997.onrender.com/docs
+
 ## 🎯 Objectives
 
 - 📂 Centralize job application information.
