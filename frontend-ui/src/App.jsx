@@ -33,7 +33,7 @@ function App() {
       const endpoint = isRegister ? '/register' : '/login'
 
       const response = await fetch(
-        `http://127.0.0.1:8000${endpoint}`,
+        `https://job-application-tracker-api-7997.onrender.com${endpoint}`,
         {
           method: 'POST',
           headers: {
