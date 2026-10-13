@@ -31,7 +31,7 @@ const EMPTY_FORM = {
   job_url: '',
   salary_min: '',
   salary_max: '',
-  applied_date: new Date().toLocaleDateString('en-CA'),
+  applied_date: '',
   status: 'APPLIED',
 }
 
