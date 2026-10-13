@@ -258,7 +258,6 @@ function Notes() {
                 onChange={handleChange}
                 rows={5}
                 maxLength={10000}
-                placeholder="Example: HR said the technical interview will focus on Python and SQL..."
                 required
               />
             </label>

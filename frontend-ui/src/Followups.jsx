@@ -283,7 +283,6 @@ function Followups() {
                 value={form.note}
                 onChange={handleChange}
                 rows={3}
-                placeholder="Example: Ask HR about the interview result..."
               />
             </label>
 
